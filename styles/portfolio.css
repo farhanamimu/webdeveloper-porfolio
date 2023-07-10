@@ -17,6 +17,7 @@ font-weight: 800;
 nav > ul {
     display: flex;
     align-items: center;
+    margin: 0px 200px;
 }
 nav li {
     list-style: none;
@@ -35,4 +36,15 @@ font-style: normal;
 font-weight: 700;
 color: white;
 padding: 18px 36px;
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
