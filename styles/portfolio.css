@@ -183,17 +183,40 @@ resume-column-title {
     font-size: 35px;
     font-weight: 700;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 130px;
+    gap: 100px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: 700;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea{ display: block;
+margin-bottom: 25px;
+padding: 18px 35px;
+color: #757575;
+border: 0;
+background-color: white;
+border-radius: 5px;
+width: 100%;
+}
+.social-links a{
+margin-right: 24px;
 }
